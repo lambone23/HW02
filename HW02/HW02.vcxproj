@@ -24,6 +24,7 @@
     <ProjectGuid>{c234d59a-16a7-4c2e-bd04-4f388c86201a}</ProjectGuid>
     <RootNamespace>HW02</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>HW02</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,7 +124,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CAnimal.cpp" />
+    <ClCompile Include="CCat.cpp" />
+    <ClCompile Include="CChicken.cpp" />
+    <ClCompile Include="CCow.cpp" />
+    <ClCompile Include="CCrow.cpp" />
+    <ClCompile Include="CDog.cpp" />
+    <ClCompile Include="CDonkey.cpp" />
+    <ClCompile Include="CHorse.cpp" />
+    <ClCompile Include="CPig.cpp" />
+    <ClCompile Include="CTiger.cpp" />
+    <ClCompile Include="CWolf.cpp" />
     <ClCompile Include="HW02.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAnimal.h" />
+    <ClInclude Include="CCat.h" />
+    <ClInclude Include="CChicken.h" />
+    <ClInclude Include="CCow.h" />
+    <ClInclude Include="CCrow.h" />
+    <ClInclude Include="CDog.h" />
+    <ClInclude Include="CDonkey.h" />
+    <ClInclude Include="CHorse.h" />
+    <ClInclude Include="CPig.h" />
+    <ClInclude Include="CTiger.h" />
+    <ClInclude Include="CWolf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
